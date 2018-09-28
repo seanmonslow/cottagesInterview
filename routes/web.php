@@ -18,4 +18,4 @@
 
 Route::get('/', 'SearchController@index');
 
-Route::post('/search', 'SearchController@search');
+Route::get('/search', 'SearchController@search');
